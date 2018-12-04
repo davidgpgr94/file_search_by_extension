@@ -7,7 +7,7 @@ from os.path import join, dirname, exists
 import binascii
 import shutil
 import errno
-from Tkinter import *
+from Tkinter import Tk, Label, Checkbutton, Button, BooleanVar
 
 def copy_files(files, src ,dst):
     for archivo in files:
